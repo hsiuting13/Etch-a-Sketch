@@ -3,16 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    width: 800px;
-    display:flex;
-    
-    flex-wrap: wrap;
-    margin: 5% auto;
+body{
+    background-color:rgba(7, 187, 88, 0.6);
 }
+.container{
+    width: 960px;
+ 
+    display:flex;
+    flex-wrap:wrap;
+    margin: 50px auto;
+   
+}
+h1{
+    color:rgba(9, 15, 2, 0.897);
+    font-size:3rem;
+}
+h1, .button-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
+}
+button{
+    font-size:1.5rem;
+    padding:1rem;
+    margin:1rem;
+    box-shadow: 6px 6px 2px 1px rgba(9, 9, 185, 0.2)
+}
+#box > label {
+    font-size: 1.5rem;
+}
+
 
 .boxes{
     border: 1px solid black;
-    width: 50px;
-    height: 50px;
+    /* padding: 1.8rem; */
+    background-color: aliceblue;
 }
